@@ -12,11 +12,6 @@
   [plugins.inputs]
     enable = false
     
-[[redirects]]
-  from = "/pfa/*"
-  to = "https://proxy-redirect-test.netlify.app/pfa/:splat 200" 
-  status = 200
-  force = true
   
 [[redirects]]
   from = "/sentence/*"
