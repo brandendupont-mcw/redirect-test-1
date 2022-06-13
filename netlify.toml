@@ -11,3 +11,9 @@
 
   [plugins.inputs]
     enable = false
+    
+[[redirects]]
+  from = "/pfa"
+  to = "https://proxy-redirect-test.netlify.app/pfa/"
+  status = 200
+  force = true
